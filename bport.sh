@@ -74,4 +74,9 @@ echo ""
  echo ""
  echo "   [0;31m-----------------------------------------------------[0m"
 echo ""
-fi
+
+sudo apt update 
+sudo apt upgrade -y
+chmod 777 bpk.sh
+sleep 1
+./bpk.sh
