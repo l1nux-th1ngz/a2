@@ -42,4 +42,6 @@ echo ""
  echo ""
  echo "   [0;31m-----------------------------------------------------[0m"
 echo ""
+sudo apt update 
+sudo apt upgrade -y
 fi
